@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0857DB25F56E335ED558F0D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299A6B9CD8B192D5540379B5 /* ContentView.swift */; };
+		0AED5FC8908896BF58246211 /* AuraRecallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D531D24838E905BBF207790 /* AuraRecallApp.swift */; };
+		158A74C11554A820B92CFE4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C86B7B7FF5393A1E5B071F1 /* Foundation.framework */; };
+		8EED59F12498277282860319 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B085BF67BF7851770912B34 /* NotificationService.swift */; };
+		999257E879555BC66703E296 /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC64723C560CF8F9A549CC /* ReminderService.swift */; };
+		BBCDDCB8F8C1161666DA1135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36E389CCB09B32F95D1415C /* Assets.xcassets */; };
+		E50262C6B3FB851AFEC4FA3C /* RecallItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96A76B90978317D7EC062E /* RecallItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07BC64723C560CF8F9A549CC /* ReminderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReminderService.swift; path = Services/ReminderService.swift; sourceTree = "<group>"; };
+		24F3E10D2D7F6D6C1D36260C /* AuraRecall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraRecall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299A6B9CD8B192D5540379B5 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		7B085BF67BF7851770912B34 /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationService.swift; path = Services/NotificationService.swift; sourceTree = "<group>"; };
+		7C86B7B7FF5393A1E5B071F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D531D24838E905BBF207790 /* AuraRecallApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraRecallApp.swift; sourceTree = "<group>"; };
+		CA96A76B90978317D7EC062E /* RecallItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecallItem.swift; path = Models/RecallItem.swift; sourceTree = "<group>"; };
+		E36E389CCB09B32F95D1415C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C660F22D40E33F8475D5BFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158A74C11554A820B92CFE4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FBEE805DCE3A74471EDA95 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7D531D24838E905BBF207790 /* AuraRecallApp.swift */,
+				CA96A76B90978317D7EC062E /* RecallItem.swift */,
+				7B085BF67BF7851770912B34 /* NotificationService.swift */,
+				07BC64723C560CF8F9A549CC /* ReminderService.swift */,
+				299A6B9CD8B192D5540379B5 /* ContentView.swift */,
+				E36E389CCB09B32F95D1415C /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4E8B6A3138E51127923C9612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2964AA91334562E9483FD1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81C3674D549C85CBE2A1B594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F3E10D2D7F6D6C1D36260C /* AuraRecall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B3B6B5F67811D969D58BD3 = {
+			isa = PBXGroup;
+			children = (
+				81C3674D549C85CBE2A1B594 /* Products */,
+				4E8B6A3138E51127923C9612 /* Frameworks */,
+				42FBEE805DCE3A74471EDA95 /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2964AA91334562E9483FD1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C86B7B7FF5393A1E5B071F1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D11D3847BBAE3077F867EA5 /* AuraRecall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F9735B37B334F7FE774BB5 /* Build configuration list for PBXNativeTarget "AuraRecall" */;
+			buildPhases = (
+				E58903338970E53A32334BEB /* Sources */,
+				C660F22D40E33F8475D5BFA3 /* Frameworks */,
+				37016C091E52827ED8B0DCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuraRecall;
+			productName = AuraRecall;
+			productReference = 24F3E10D2D7F6D6C1D36260C /* AuraRecall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8AB182D739440B6A2908D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5D11D3847BBAE3077F867EA5 = {
+						DevelopmentTeam = Q9YC9DLD52;
+					};
+				};
+			};
+			buildConfigurationList = D566620D6793741FC56CC708 /* Build configuration list for PBXProject "AuraRecall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6B3B6B5F67811D969D58BD3;
+			productRefGroup = 81C3674D549C85CBE2A1B594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D11D3847BBAE3077F867EA5 /* AuraRecall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37016C091E52827ED8B0DCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCDDCB8F8C1161666DA1135 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58903338970E53A32334BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AED5FC8908896BF58246211 /* AuraRecallApp.swift in Sources */,
+				E50262C6B3FB851AFEC4FA3C /* RecallItem.swift in Sources */,
+				8EED59F12498277282860319 /* NotificationService.swift in Sources */,
+				999257E879555BC66703E296 /* ReminderService.swift in Sources */,
+				0857DB25F56E335ED558F0D3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F780D41B88A9B324F5A2651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "미뤄둔 기억을 캘린더에 일정으로 안전하게 등록하기 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "미룬 할 일을 미리알림 목록에 추가하기 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraRecall;
+				PRODUCT_NAME = AuraRecall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5B1CB295A470A905C840E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8BA87A5CE06E4B13D9E86EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5D8029CBB23066E78092C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "미뤄둔 기억을 캘린더에 일정으로 안전하게 등록하기 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "미룬 할 일을 미리알림 목록에 추가하기 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraRecall;
+				PRODUCT_NAME = AuraRecall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D566620D6793741FC56CC708 /* Build configuration list for PBXProject "AuraRecall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5B1CB295A470A905C840E3 /* Debug */,
+				A8BA87A5CE06E4B13D9E86EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F9735B37B334F7FE774BB5 /* Build configuration list for PBXNativeTarget "AuraRecall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F780D41B88A9B324F5A2651 /* Release */,
+				D5D8029CBB23066E78092C8E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8AB182D739440B6A2908D6D /* Project object */;
+}
